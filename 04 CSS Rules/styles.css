@@ -1,0 +1,51 @@
+body {
+  font-family: Helvetica Neue;
+  font-weight: 200;
+}
+p {
+  font-family: Avenir Next ;
+  font-weight: bold ;
+  color: #577590 ;
+}
+
+h1 {
+  font-family: Bebas Neue ;
+  color: #297373 ;
+  border: 1px solid ;
+  background-color: #E6E6E6 ;
+  padding: inherit ;
+}
+
+h2 {
+  font-family: Avenir Next ;
+  font-weight: 400 ;
+  font-size: 25px ;
+  color: #FF8552 ;
+}
+
+a {
+  font-family: Helvetica Neue ;
+  font-weight: bold ;
+  color: #E9D758 ;
+}
+h3 {
+  font-family: Helvetica Neue ;
+  font-weight: bold ;
+  color: #7FC6A4 ;
+}
+h4 {
+  font-family: Avenir Next ;
+  font-weight: bold ;
+  color: #F2A541 ;
+}
+
+form>p {
+  font-family: Avenir Next ;
+  font-weight: lighter ;
+  color: #577590 ;
+}
+th, td {
+    border-bottom: 1px solid #FF8552;
+    font-weight: 200 ;
+    color: #919191 ;
+}
