@@ -1,53 +1,60 @@
 body {
-  font-family: Helvetica Neue;
+  font-family: Georgia ;
   font-weight: 200;
 }
 
 h1 {
-  font-family: Bebas Neue ;
-  color: #297373 ;
-  border: 1px solid ;
-  background-color: #E6E6E6 ;
+  font-family: Didot;
+  color: #7FC6A4 ;
+  background-color: #FCF5C7 ;
   padding: inherit ;
 }
 
 h2 {
-  font-family: Avenir Next ;
-  font-weight: 400 ;
-  font-size: 25px ;
-  color: #FF8552 ;
+  font-family: Georgia ;
+  color: #47A8BD ;
+  background-color: #FCF5C7 ;
 }
 
 h3 {
   font-family: Helvetica Neue ;
-  font-weight: bold ;
-  color: #7FC6A4 ;
+  color: #FFA65E ;
 }
 h4 {
-  font-family: Avenir Next ;
+  font-family: Georgia ;
+  background-color: #7FC6A4 ;
   font-weight: bold ;
-  color: #F2A541 ;
+  color: #FCF5C7 ;
 }
 
 p {
-  font-family: Avenir Next ;
+  font-family: Georgia ;
   font-weight: bold ;
-  color: #577590 ;
+  color: #ED4E6B ;
 }
 
 a {
   font-family: Helvetica Neue ;
-  font-weight: bold ;
-  color: #E9D758 ;
+  color: #FFA65E ;
 }
 
 form>p {
-  font-family: Avenir Next ;
-  font-weight: lighter ;
-  color: #577590 ;
+  font-family: Georgia ;
+  font-weight: bold ;
+  color: #8F63A0 ;
 }
-th, td {
-    border-bottom: 1px solid #FF8552;
+table, th, td {
+    border: 2px solid #7FC6A4 ;
     font-weight: 200 ;
-    color: #919191 ;
+    color: black ;
+    background-color: #FCF5C7 ;
+}
+
+img {
+  border: 2px solid #79ADDC ;
+  padding: 2px;
+}
+
+form p {
+    background-color: #F9F8EF ;
 }
