@@ -2,11 +2,6 @@ body {
   font-family: Helvetica Neue;
   font-weight: 200;
 }
-p {
-  font-family: Avenir Next ;
-  font-weight: bold ;
-  color: #577590 ;
-}
 
 h1 {
   font-family: Bebas Neue ;
@@ -23,11 +18,6 @@ h2 {
   color: #FF8552 ;
 }
 
-a {
-  font-family: Helvetica Neue ;
-  font-weight: bold ;
-  color: #E9D758 ;
-}
 h3 {
   font-family: Helvetica Neue ;
   font-weight: bold ;
@@ -37,6 +27,18 @@ h4 {
   font-family: Avenir Next ;
   font-weight: bold ;
   color: #F2A541 ;
+}
+
+p {
+  font-family: Avenir Next ;
+  font-weight: bold ;
+  color: #577590 ;
+}
+
+a {
+  font-family: Helvetica Neue ;
+  font-weight: bold ;
+  color: #E9D758 ;
 }
 
 form>p {
