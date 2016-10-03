@@ -1,6 +1,7 @@
 body {
   font-family: Helvetica Neue;
   font-weight: 200;
+  background-color: #E6E6E6 ;
 }
 p {
   font-family: Avenir Next ;
@@ -11,9 +12,6 @@ p {
 h1 {
   font-family: Bebas Neue ;
   color: #297373 ;
-  border: 1px solid ;
-  background-color: #E6E6E6 ;
-  padding: inherit ;
 }
 
 h2 {
