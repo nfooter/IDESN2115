@@ -18,6 +18,7 @@ h2{
    text-transform: uppercase;
    color: dimgray ;
    line-height: 30px;
+   display: none ;
  }
 p {
   font-size: 18px;
@@ -54,6 +55,6 @@ p.stanzathree:first-line {
 
 
 /*couldn't get all three classes to work*/
-p.stanzaone {
+p.stanzaone, p.stanzatwo, p.stanzathree {
   color: black ;
 }
