@@ -1,0 +1,59 @@
+h1 {
+font-family: Georgia;
+line-height: 10px ;
+font-size:
+}
+
+h2{
+  font-family: Georgia ;
+  font-weight: normal ;
+  font-size: 18px ;
+  line-height: 21px ;
+  text-transform: uppercase;
+ }
+
+ h3 {
+   font-family: verdana ;
+   font-weight: bold;
+   text-transform: uppercase;
+   color: dimgray ;
+   line-height: 30px;
+ }
+p {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+p.stanzaone {
+  font-family: Helvetica ;
+  color: forestgreen ;
+}
+
+p.stanzatwo {
+  font-family: Georgia;
+  color: navy ;
+}
+
+p.stanzathree {
+  font-family: Courier ;
+  color: deeppink;
+}
+/*p.stanzaone:first-line {
+  text-transform: uppercase;
+}
+
+p.stanzatwo:first-line {
+  text-transform: uppercase;
+}
+
+p.stanzathree:first-line {
+  text-transform: uppercase;
+}
+*/
+
+
+
+/*couldn't get all three classes to work*/
+p.stanzaone {
+  color: black ;
+}
