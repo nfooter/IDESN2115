@@ -6,7 +6,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font: inherit;
     vertical-align: baseline
 }
+a {
+  color: #FF6B6C;
+}
 
+a:hover {
+  color:#FFC145;
+}
+
+a:visited{
+  color: #FF964C;
+}
 ul {
     list-style: none
 }
@@ -48,8 +58,8 @@ html, body {
 
 body {
     background: white;
-    color: #222;
-    font-family: sans-serif
+    color: #5B5F97;
+    font-family: Avenir;
 }
 
 img {
@@ -142,7 +152,7 @@ aside.warning {
 }
 
 fieldset {
-    background: #eee;
+    background: #A1EAD2;
     border: 2px groove #ccc;
     padding: 0.35em 0.625em 0.75em
 }
@@ -165,7 +175,7 @@ legend {
     line-height: 1.75em;
     background-color: #fff;
     padding: 1px 4px;
-    background-color: #eee;
+    background-color: #6ADDB7;
     border-top: 1px solid #ccc;
     border-right: 1px solid #ccc
 }
@@ -246,7 +256,7 @@ legend {
 #pagecontainer > header, .post .posting > header, footer {
     line-height: 1em;
     min-height: 1.1em;
-    background: #eee;
+    background: #A1EAD2;
     padding: 5px 0
 }
 
@@ -543,7 +553,7 @@ h4 .star {
 }
 
 .posting .postingtitle {
-    font-family: "Bitstream Vera Serif", "Times New Roman", serif;
+    font-family: "Avenir", "Helvetica", sans-serif;
     font-size: 1.4em;
     font-weight: bold;
     line-height: 1.4em;
@@ -713,7 +723,7 @@ h4 .star {
 }
 
 #postingbody {
-    font-family: "Bitstream Vera Serif", "Times New Roman", serif
+    font-family: "Avenir", "Helvetica", sans-serif;
 }
 
 #postingbody p {
@@ -807,7 +817,9 @@ h4 .star {
 #postingbody th {
     font-weight: bold
 }
-
+#postingbody::first-line {
+    font-weight: bold;
+}
 .posting .cltags {
     font-size: smaller;
     margin: 1em 0
@@ -985,7 +997,7 @@ abbr.timeago {
     position: relative;
     max-width: 440px;
     max-height: 330px;
-    border: 1px solid #eeeeee;
+    border: 1px solid #41D3BD;
     overflow: hidden
 }
 
@@ -1047,10 +1059,10 @@ abbr.timeago {
 }
 
 .iw #thumbs img.selected {
-    border: solid 1px orange;
-    -webkit-box-shadow: 0 0 0 1px #ffa500;
-    -moz-box-shadow: 0 0 0 1px #ffa500;
-    box-shadow: 0 0 0 1px #ffa500
+    border: solid 3px #41D3BD;
+    -webkit-box-shadow: 0 0 0 1px #41D3BD;
+    -moz-box-shadow: 0 0 0 1px #41D3BD;
+    box-shadow: 0 0 0 1px #41D3BD
 }
 
 .w1024 .iw #thumbs img {
@@ -1106,7 +1118,8 @@ abbr.timeago {
     float: right;
     vertical-align: top;
     width: 280px;
-    margin-left: 1em
+    margin-left: 1em;
+    border: 1px, solid, #41D3BD;
 }
 
 .posting.w1024 .mapAndAttrs {
@@ -1130,7 +1143,7 @@ abbr.timeago {
 
 .posting .attrgroup span {
     background-color: #fafafa;
-    border: 1px solid #ccc;
+    border: 1px solid #41D3BD;
     -webkit-border-radius: .25em;
     -moz-border-radius: .25em;
     border-radius: .25em;
@@ -1253,7 +1266,7 @@ a.showcontact {
     -webkit-border-radius: .5em;
     -moz-border-radius: .5em;
     border-radius: .5em;
-    color: #00b;
+    color: #FF6B6C;
     font-size: 0.8em;
     padding-left: 0.3em;
     padding-right: 0.3em;
@@ -1262,8 +1275,8 @@ a.showcontact {
 }
 
 a.showcontact:hover {
-    color: #00f;
-    border: 1px solid #00f
+    color: #FFC145;
+    border: 1px solid #5B5F97;
 }
 
 .toc a, .toc .hl {
@@ -1271,11 +1284,18 @@ a.showcontact:hover {
 }
 
 .toc a {
-    text-decoration: none
+    text-decoration: none;
+    color: #FF6B6C;
 }
 
 .toc a:hover {
-    text-decoration: underline
+    text-decoration: underline;
+    color: #FFC145;
+}
+
+.toc a:visited {
+    text-decoration: none;
+    color: #FF964C;
 }
 
 .toc #messagetable #messages {
@@ -1645,7 +1665,7 @@ label.disabled {
 }
 
 .toc #searchtable {
-    background: #eee;
+    background: #6ADDB7;
     padding: 3px 0 0 10px
 }
 
@@ -1739,7 +1759,7 @@ label.disabled {
     background-color: #fff;
     height: 1.3em;
     line-height: 1.3em;
-    border: 1px solid #dadada;
+    border: 1px solid #41D3BD;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
     border-radius: 7px;
@@ -1765,7 +1785,7 @@ label.disabled {
 }
 
 .toc .toc_legend .buttongroup .sel {
-    background-color: #6688ff;
+    background-color: #5DEABB;
     color: #ffffff
 }
 
@@ -1779,7 +1799,7 @@ label.disabled {
     *display: inline;
     *zoom: 1;
     min-width: 310px;
-    color: #aaa;
+    color: #818296;
     white-space: nowrap
 }
 
@@ -1815,7 +1835,7 @@ label.disabled {
 }
 
 .toc .toc_legend .paginator .pagenum {
-    color: #222;
+    color: #5B5F97;
     white-space: nowrap;
     width: 160px;
     padding: 0
@@ -1830,7 +1850,7 @@ label.disabled {
 }
 
 .toc .toc_legend a:visited {
-    color: #00e
+    color: #FF964C;
 }
 
 .toc .toc_legend a.sel {
@@ -1925,12 +1945,13 @@ label.disabled {
 }
 
 .toc .row .pl {
-    font-family: "Bitstream Vera Serif", "Times New Roman", serif
+    font-family: "Avenir Next", "Helvetica Bold", sans-serif;
 }
 
 .toc .row .date {
     font-size: smaller;
-    color: red;
+    font-weight: bold;
+    color: #FFC145;
     display: none
 }
 
@@ -1940,7 +1961,7 @@ label.disabled {
 }
 
 .toc .row span.p .maptag {
-    color: #080
+    color: #26A96C
 }
 
 .toc .row .star {
@@ -1964,7 +1985,7 @@ label.disabled {
 .toc .searchform #searchfieldset {
     border: 1px solid #ccc;
     padding: 0 0 5px 0;
-    margin: auto
+    margin: auto;
 }
 
 .toc #mapcontainer {
@@ -2126,7 +2147,7 @@ label.disabled {
 
 .toc #mapcontainer .date:after, .toc .l2 .price {
     font-size: .8em;
-    border: 1px solid #ccc;
+    border: 1px solid #41D3BD;
     -webkit-border-radius: .25em;
     -moz-border-radius: .25em;
     border-radius: .25em;
@@ -4171,7 +4192,7 @@ div.checklist li.optgroup:hover {
 
 #pagecontainer header .user.post a, .homepage #postlks #post {
     padding: 2px .5em;
-    background-color: #ffc
+    background-color: #6ADDB7;
 }
 
 .homepage #search {
