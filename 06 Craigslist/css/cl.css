@@ -62,8 +62,9 @@ body {
     font-family: Avenir;
 }
 
-img {
-    border: 0
+img{
+    border: 4px solid #41D3BD;
+    border-radius: 19px;
 }
 
 em {
@@ -80,7 +81,8 @@ big {
 }
 
 small {
-    font-size: smaller
+    font-size: smaller;
+    font-style: italic;
 }
 
 sup {
@@ -326,7 +328,8 @@ section.body {
     width: 768px;
     margin: 0 auto;
     height: 90%;
-    min-height: 600px
+    min-height: 600px;
+    background-color: #E5E3E3;
 }
 
 section.personals_interstitial_body {
@@ -566,7 +569,7 @@ h4 .star {
 }
 
 .posting .tsb {
-    border: 1px solid #eee;
+    border: 1px solid #41D3BD;
     margin: 0 0 1em 0;
     padding: 5px 8px
 }
@@ -997,7 +1000,6 @@ abbr.timeago {
     position: relative;
     max-width: 440px;
     max-height: 330px;
-    border: 1px solid #41D3BD;
     overflow: hidden
 }
 
@@ -1913,8 +1915,8 @@ label.disabled {
 
 .toc .row .gc {
     padding: 2px;
-    background: #eee;
-    font-size: smaller
+    background: #d6f0f7;
+    font-size: smaller;
 }
 
 .toc .row .gc:hover {
