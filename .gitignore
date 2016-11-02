@@ -17,8 +17,6 @@
 
 00 In Class Demo/More CSS/conference.html
 
-*.jpg
-
 *.png
 
 *.gif
@@ -45,4 +43,26 @@
 
 05 Craigslist/css/tocsmaps.css
 
-*.pdf
+06 Craigslist/css/tocsmaps.css
+
+06 Craigslist/css/jquery-ui-1.9.2.custom.css
+
+06 Craigslist/css/leaflet-stock.css
+
+06 Craigslist/css/MarkerCluster.css
+
+06 Craigslist/js/general-concat.min.js
+
+06 Craigslist/js/html5shiv.min.js
+
+06 Craigslist/js/json2.min.js
+
+06 Craigslist/js/leaflet-concat.min.js
+
+06 Craigslist/js/postings-concat.min.js
+
+06 Craigslist/js/postings-concat.min.js.1
+
+06 Craigslist/js/tocs-concat.min.js
+
+*.jpg
