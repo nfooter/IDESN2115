@@ -65,6 +65,8 @@
 
 06 Craigslist/js/tocs-concat.min.js
 
-*.jpg
+#*.jpg
 
 00 In Class Demo/144 position + float/144 exercise instructions.pdf
+
+*.idlk
