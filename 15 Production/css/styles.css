@@ -1,0 +1,75 @@
+header, nav, footer, div {
+  border: solid 2px red;
+}
+
+body {
+  background-color: #f8f9eb;
+  margin-left: 2em ;
+  margin-right: 2em;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+}
+
+#primary_nav {
+  font-family: Prohibition, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  list-style-type: none;
+  text-align: center;
+}
+
+#primary_nav .nav_links {
+  padding-left: 10%;
+}
+
+#primary_nav .nav_links:first-of-type {
+  padding-left: 0%;
+}
+
+#primary_nav a {
+  text-decoration: none;
+  color: #e86a68;
+}
+
+#primary_nav a:visited {
+  display: none;
+}
+
+#paragraph {
+  font-family: Avenir;
+  font-weight: 500 ;
+  font-size: 19px;
+  color: #787878;
+  width: 418px;
+  height: 151px;
+
+}
+
+#notfooter {
+  /*float: left;*/
+}
+
+#footer {
+  font-family: Avenir;
+  font-size: 19px;
+  color: white;
+  background-color: #e86a68;
+  height: 78px;
+  width: auto;
+}
+
+#footer #Porter {
+  float: left;
+  margin-left: 170px;
+  margin-top: 27px;
+}
+
+#footer #Harvard {
+  float: right;
+  margin-right: 170px;
+  margin-top: 27px;
+}
