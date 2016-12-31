@@ -18,6 +18,8 @@ h2{
    text-transform: uppercase;
    color: dimgray ;
    line-height: 30px;
+
+   /* Hides the Stanza X lines */
    display: none ;
  }
 p {
@@ -39,22 +41,13 @@ p.stanzathree {
   font-family: Courier ;
   color: deeppink;
 }
-/*p.stanzaone:first-line {
+
+/* Makes first line of paragraph uppercase & commented out for #4 */
+/*p.stanzaone::first-line, p.stanzatwo::first-line, p.stanzathree::first-line {
   text-transform: uppercase;
-}
+}*/
 
-p.stanzatwo:first-line {
-  text-transform: uppercase;
-}
-
-p.stanzathree:first-line {
-  text-transform: uppercase;
-}
-*/
-
-
-
-/*couldn't get all three classes to work*/
+/* Makes all stanzas black */
 p.stanzaone, p.stanzatwo, p.stanzathree {
   color: black ;
 }
